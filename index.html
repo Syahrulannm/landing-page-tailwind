@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- HEADER -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-indigo-600">Syahrul Studio</h1>
+        <nav class="space-x-6 text-sm">
+          <a class="hover:text-indigo-600" href="#">Home</a>
+          <a class="hover:text-indigo-600" href="#">Layanan</a>
+          <a class="hover:text-indigo-600" href="#">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="bg-indigo-600 text-white py-20">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-bold mb-4">Bangun Website Profesionalmu</h2>
+        <p class="text-lg mb-6">Kami bantu kamu punya website yang elegan, cepat, dan siap online!</p>
+        <a href="#" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded hover:bg-gray-100 transition">Konsultasi Gratis</a>
+      </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <h3 class="text-2xl font-bold text-center mb-12 text-gray-800">Layanan Kami</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- KARTU 1 -->
+          <div class="bg-gray-50 p-6 shadow rounded-xl hover:shadow-lg transition">
+            <img class="w-16 h-16 mb-4 rounded" src="img/gambar1.png" alt="Desain Web" />
+            <h4 class="text-xl font-semibold mb-2 text-indigo-600">Desain Web</h4>
+            <p class="text-sm text-gray-600">Tampilan modern dan user-frendly untuk menarik pengunjung.</p>
+          </div>
+
+          <!-- KARTU 2 -->
+          <div class="bg-gray-50 p-6 shadow rounded-xl hover:shadow-lg transition">
+            <img class="w-16 h-16 mb-4 rounded" src="img/gambar2.png" alt="Frontend" />
+            <h4 class="text-xl text-indigo-600 font-semibold mb-2">Front-end Development</h4>
+            <p class="text-sm text-gray-600">Kode bersih dengan HTML, CSS, dan JavaScript untuk interaksi maksimal</p>
+          </div>
+
+          <!-- KARTU 3 -->
+          <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <img class="w-16 h-16 mb-4 rounded" src="img/gambar3.png" alt="Deploy" />
+            <h4 class="text-xl font-semibold text-indigo-600 mb-2">Deploy & Hosting</h4>
+            <p class="text-sm text-gray-600">Kami bantu website kamu online dengan cepat lewat GitHub / Netlify.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="bg-indigo-50 py-16">
+      <div class="max-w-xl mx-auto text-center px-6">
+        <h2 class="text-2xl font-bold mb-4">Siap Punya Website Keren?</h2>
+        <p class="mb-6 text-gray-600">Hubungi kami sekarang dan mulai proyek pertamamu bersama Syahrul Studio!</p>
+        <a class="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition" href="#">Mulai Sekarang</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white py-6 mt-10 border-t text-center text-sm text-gray-500">
+      <div class="mb-2">
+        <a href="https://Instagram.com/name" class="mx-2 text-indigo-600 hover:underline">Instagram</a>
+        <a href="mailto:name@email.com" class="mx-2 text-indigo-600 hover:underline">Email</a>
+        <a href="https://wa.me/number" class="mx-2 text-indigo-600 hover:underline">WhatsApp</a>
+      </div>
+      <p>2025 Syahrul Web Studio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
