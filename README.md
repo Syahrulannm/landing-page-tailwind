@@ -30,6 +30,11 @@ Landing page ini dibuat menggunakan **HTML dan Tailwind CSS**, dengan fokus pada
 2. Buka `index.html` di browser
 3. Edit konten sesuai kebutuhan
 
+## Preview
+
+[🔗 Live Demo via Netlify](https://elegan-syahrul-site.netlify.app)
+
+
 > Dibuat oleh **Syahrul Annam** – Front-End Developer Pemula
 
 ---
