@@ -32,7 +32,7 @@ Landing page ini dibuat menggunakan **HTML dan Tailwind CSS**, dengan fokus pada
 
 ## Preview
 
-[🔗 Live Demo via Netlify](https://elegan-syahrul-site.netlify.app)
+[🔗 Live Demo via Netlify](https://landing-page-tailwind-syahrul.netlify.app/)
 
 --
 > Dibuat oleh **Syahrul Annam** – Front-End Developer Pemula
